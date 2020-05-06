@@ -3,6 +3,10 @@
     
 }
 
+body {
+    margin: -2.7px;
+}
+
 h1 {  
     font-size: 5.625rem; /* 90px/16px  */
     color: rgb(247, 247, 247);
@@ -41,7 +45,7 @@ nav {
 
 .main-header {
     text-align: center;
-    background: url("github.io/revere-hotel-boston.jpg");
+    background: url("../images/revere-hotel-boston.jpg");
     background-color: rgba(148, 157, 168, .3);
     background-blend-mode: multiply;
     background-size: cover;
@@ -225,11 +229,11 @@ a:link {
     font-size: .8em; 
 }
 a:visited {
-    color: blueviolet;
+    color: rgb(10, 6, 248);
 }
 
 a:hover {
-    color: rgb(203, 240, 41);
+    color: rgba(245, 245, 244, 0.459);
 }
 
 footer {   
