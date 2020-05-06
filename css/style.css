@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+h1 {  
+    font-size: 5.625rem; /* 90px/16px  */
+    color: rgb(247, 247, 247);
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1.3;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .8);
+    margin: 12px 0 0;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  }
+
+h3 {
+    color: rgba(179, 43, 81,.9);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8em;
+    width: 100%;
+    text-align: left;
+}
+
+nav {
+    width: 200px;
+    min-width: 50%;
+    
+}
+
+}
+.title{
+    text-align: center;
+    padding: 5px 10px 10px;
+    /* margin-top: 10%; */
+    margin: auto;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .8);
+    /* margin: 12px 0 0; */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .8);
+}
+
+.main-header {
+    text-align: center;
+    background: url("../images/revere-hotel-boston.jpg");
+    background-color: rgba(148, 157, 168, .3);
+    background-blend-mode: multiply;
+    background-size: cover;
+    
+}
+
+.sub-header {
+    background: linear-gradient(45deg, #fff, transparent), url("../images/statacenter.jpg");
+    background-size: cover;
+}
+
+.cityTitle {
+    font-size: 3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+}
+
+.arrow {
+    margin-top: 200px;
+}
+
+.first-text {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 2em;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .8);
+}
+
+
+.primary-content {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 75%;
+    max-width: 960px;
+    /* max-height: 500px; */
+    margin: 1em;
+    line-height: .9em;
+    padding-left: .2em;
+    padding-right: 1em;
+    /* padding-top: 60px; */
+    /* padding-bottom: 60px; */
+    margin: auto;
+    text-align: left;
+
+    /* border: 2px solid gray;
+    overflow-wrap: initial; */
+    
+
+    /* align-items: center; */
+
+}
+
+ul {
+    list-style-type: none;
+    margin-left: -20%;
+}
+
+
+.adams1 {
+    width: 70%;
+    border-radius: 15%;
+    margin-right: 40px;
+    
+}
+
+.duckboat {
+    height: 100%;
+    width: 80%;
+    margin-top: -20%;
+    margin-bottom: 30px;
+    border-radius: 15%;
+}
+
+
+.hotels {
+    float: left;
+    margin-top: 35%;
+    position: relative; right: 40%;
+    margin-left: -10%;
+    /* position: relative; bottom: 100px;
+     
+     */
+   
+    
+    /* position: relative; bottom: 100%;
+    position: relative; right: 55%; */
+   
+    
+}
+
+.hotel1 {
+    width: 100%;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    
+}
+
+.food {
+    /* position: relative; bottom: 300px; */
+    float: right;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+    padding-left: 30%;
+    padding-bottom: 20px;
+    position: relative; right: 15%;
+    position: relative; bottom: 400px;
+     /* padding-right: 1%; */
+    margin-right: 30px; 
+    
+    /* height: 40%; */
+    /* width: 50%; */
+    /* margin-right: 40%; */
+    /* padding-right: 10%; */
+}
+/* .primary-content p {
+    max-width: 30%;
+} */
+.food1 {
+    height: 30%;
+    width: 30%
+    padding: 10px 10px;
+    
+    /* margin: 20px; */
+    border-radius: 15%;
+}
+
+.todos,
+.already-done {
+    margin-top: 10%;
+    width: 45%;
+}
+
+.hotels,
+.food {
+    width: 45%;
+    /* margin: auto; */
+}
+
+.already-done {
+    margin-top: 20%;
+    max-height: 200px;
+    text-align: wrap;   
+}
+
+.todos {
+    float: left;
+    
+        
+}
+
+.already-done {
+    float: right;
+}
+
+.already-done h3 {
+    margin-top: -5%;
+}
+
+/* .t-border {    
+    border-top: 4px solid rgb(235, 150, 232);    
+}
+
+.b-border {
+    
+    border-bottom: 2px solid rgb(235, 150, 232);
+} */
+
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+    clear: inline;
+  }
+
+a:link {
+    color: rgb(1, 5, 15);
+    font-size: .8em; 
+}
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: rgb(203, 240, 41);
+}
+
+footer {   
+    
+    margin-bottom: 10%;
+    border-bottom: 1px solid royalblue;
+    /* padding-top: 20%;
+    text-align: center;  
+    position: relative; top: 100%;
+} */
+}
